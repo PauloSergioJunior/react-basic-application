@@ -22,7 +22,7 @@ export default function TrabalhoEstudantil() {
         <button className="pdf-button" onClick={generatePDF}>Baixar PDF</button>
       </div>
       <div className="document-container">
-        <header className="document-header">Trabalho Estudantil</header>
+        <header className="document-header">Trabalho DevOps</header>
         
         <main className="document-content">
           <h2 className="document-title">Sumário</h2>
