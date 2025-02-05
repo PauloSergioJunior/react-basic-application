@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# React Basic Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto é uma aplicação React desenvolvida como parte de um projeto institucional. Seu objetivo é documentar e interagir com uma aplicação backend criada em Spring Boot, fornecendo uma interface de usuário intuitiva e eficiente.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- 📄 **Documentação da Aplicação Spring Boot**: A aplicação permite visualizar e interagir com a documentação da aplicação backend.
+- 🎨 **Interface Intuitiva**: Desenvolvida com componentes React para proporcionar uma experiência de usuário amigável.
+- 🔗 **Integração com API**: Comunicação eficiente com a API da aplicação Spring Boot para exibir dados em tempo real.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalação
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone o repositório**:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/PauloSergioJunior/react-basic-application.git
+   cd react-basic-application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Instale as dependências:**:
 
-### `npm run build`
+   ```bash
+   npm install 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Inicie o servidor de desenvolvimento:**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
 
-### `npm run eject`
+2. **Acesse a aplicação:**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Abra o navegador e navegue até http://localhost:3000 para interagir com a aplicação React.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estrutura do Projeto   
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    react-basic-application/
+    │── src/
+    │   ├── components/
+    │   │   ├── TrabalhoEstudantil.js  # Componente principal para documentar a aplicação Spring Boot
+    │   ├── App.js                      # Componente raiz da aplicação
+    │   ├── index.js                    # Ponto de entrada da aplicação
+    │── public/                          # Arquivos estáticos
+    │── package.json                     # Configuração do projeto e dependências
+    │── README.md                        # Documentação do projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribuição
 
-## Learn More
+Se você deseja contribuir com melhorias para este projeto, siga estas etapas:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Fork o repositório.**
+2. **Crie um branch para sua feature (git checkout -b minha-feature).**
+3. **Faça as alterações necessárias e commit (git commit -m 'Adicionando nova feature').**
+4. **Envie seu código para o repositório remoto (git push origin minha-feature).**
+5. **Abra um Pull Request explicando suas alterações.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+Este projeto está licenciado sob a MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contato
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📧 Para mais informações, entre em contato com **[Paulo Sérgio Júnior](https://github.com/PauloSergioJunior)**.
