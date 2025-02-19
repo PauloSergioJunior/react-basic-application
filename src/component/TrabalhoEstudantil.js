@@ -44,7 +44,17 @@ export default function TrabalhoEstudantil() {
               A estratégia foi reunir toda logica bancaria em um único projeto, para que a equipe entenda o fluxo completo e que um ajude no fluxo do próximo modulo, modulo esse que irei explicar melhor no tópico adiante. 
               A metodologia usada foi o scrum que é um framework ágil de gerenciamento de projetos que ajuda as equipes a trabalharem de forma colaborativa e a se auto-organizar. O Scrum é baseado em ciclos curtos, chamados sprints, que permitem a entrega de valor ao cliente de forma rápida e contínua.
               Como a equipe vive ciclos entre projetos, o quadro scrum foi a melhor sacada para que a equipe tenha a autonomia de fluir em features que mais se identificam no projeto. 
-              Cada sprint, quando concluído a feature, fazemos revezamentos entrem módulos para que sempre soubéssemos o fluxo completo das transações. 
+              Cada sprint, quando concluído a feature, fazemos revezamentos entrem módulos para que sempre soubéssemos o fluxo completo das transações. <br/>
+              Linha do Tempo: <br/>
+                    ●	Semana 1-4: Refinamento do projeto e definição do escopo. (20 dias úteis) <br/>
+                    ●	Semana 5-7: Planejamento da arquitetura e estratégias de desenvolvimento. (15 dias úteis) <br/>
+                    ●	Semana 8-11: Desenvolvimento inicial (autenticação e estrutura básica). (20 dias úteis) <br/>
+                    ●	Semana 12-19: Implementação das funcionalidades principais. (40 dias úteis) <br/>
+                    ●	Semana 20-23: Integração e design responsivo. (20 dias úteis) <br/>
+                    ●	Semana 24-27: Testes funcionais e validação com stakeholders. (20 dias úteis) <br/>
+                    ●	Semana 28-31: Treinamento das equipes e implantação do sistema. (20 dias úteis) <br/>
+                    ●	Semana 32 em diante: Suporte contínuo e melhorias. (Contínuo) <br/>
+
             </p>
           </section>
           
@@ -54,6 +64,12 @@ export default function TrabalhoEstudantil() {
               No desenvolvimento do projeto tomamos a decisão de transformar todos os microsserviços em módulos para que seja compartilhado configurações semelhantes entre projetos, para o desenvolvimento seja entendido e estendido entre os módulos e que se uma feature desenvolvida impactasse outro modulo fosse de rápida solução.
               O projeto todo foi desenvolvido em Java 17 com Spring Boot 3.2 para que as dependências fossem fáceis de gerenciar e de compartilhar dados entre módulos, já que a integração/configuração do Spring para com os módulos é nativa do framework. 
               Usamos também serviços de mensageria, stream e armazenamento em cache, RabbitMq, Kafka e Redis respectivamente para uma comunicação mais rápida possível seja interno como externo.
+              Para o desenvolvimento deste projeto, será utilizada a metodologia ágil, com sprints curtos e entregas incrementais. Esse modelo permite maior flexibilidade para ajustes durante o desenvolvimento, além de promover feedback contínuo com as partes interessadas.<br/>
+               O processo incluirá: <br/>
+                    ●	Reuniões de planejamento e revisão a cada sprint. <br/>
+                    ●	Testes contínuos para garantir qualidade e confiabilidade. <br/>
+                    ●	Colaboração estreita entre as equipes de desenvolvimento, design e negócio. <br/>
+
             </p>
           </section>
           
