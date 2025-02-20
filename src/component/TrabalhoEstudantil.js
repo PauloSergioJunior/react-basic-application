@@ -4,17 +4,32 @@ import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 
 export default function TrabalhoEstudantil() {
+
   const generatePDF = () => {
     const input = document.querySelector(".document-container");
     html2canvas(input, { scale: 2 }).then((canvas) => {
       const imgData = canvas.toDataURL("image/png");
       const pdf = new jsPDF("p", "mm", "a4");
-      const imgWidth = 210;
+      const imgWidth = 210; // Largura do PDF (A4)
+      const pageHeight = 297; // Altura do PDF (A4)
       const imgHeight = (canvas.height * imgWidth) / canvas.width;
-      pdf.addImage(imgData, "PNG", 0, 0, imgWidth, imgHeight);
+      let heightLeft = imgHeight;
+      let position = 0;
+  
+      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+      heightLeft -= pageHeight;
+  
+      while (heightLeft > 0) {
+        position = -pageHeight + 2; // Adiciona margem no topo da nova página
+        pdf.addPage();
+        pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+        heightLeft -= pageHeight;
+      }
+  
       pdf.save("trabalho_devops.pdf");
     });
   };
+
 
   return (
     <div>
